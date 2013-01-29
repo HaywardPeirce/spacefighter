@@ -1,0 +1,40 @@
+class Sprite
+{
+  Integer x;
+  Integer y;
+  Integer dx;
+  Integer dy;
+  Integer bx1;
+  Integer by1;
+  Integer bx2;
+  Integer by2;
+  Image image;
+}
+
+class Projectile
+{
+  isA Sprite;
+  float speed;
+  float power;
+}
+
+class Player
+{
+  isA Sprite;
+  float power;
+  float health;
+}
+
+class ControllablePlayer
+{
+  isA Player;
+  Integer score;
+  Integer lives;
+  name;
+}
+
+class NPC
+{
+   isA Player;
+   name;
+}
