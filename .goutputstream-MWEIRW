@@ -1,7 +1,6 @@
 #Space Invaders
 #By Hayawrd Peirce hayward.peirce.me
 #released under the ___ licence
-#With contributions from Jordan Bussanich - jordan.bussanich@gmail.com - http://jnbottawa.wordpress.com
 
 import random, pygame, sys, time
 from pygame.locals import *
